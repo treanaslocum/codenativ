@@ -1,6 +1,8 @@
 <template>
   <div>
     <BetaHeader/>
+    <Header/>
+    <HeroSection/>
   </div>
 </template>
 
@@ -19,10 +21,14 @@ export default {}
 
 <script>
   import BetaHeader from '~/components/BetaHeader.vue'
+  import Header from '~/components/Header.vue'
+  import HeroSection from '~/components/HeroSection.vue'
 
   export default {
   components: {
-    BetaHeader
+    BetaHeader,
+    Header,
+    HeroSection,
   },
   head () {
     return {
