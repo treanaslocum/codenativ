@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+    <BetaHeader/>
   </div>
 </template>
 
@@ -16,3 +16,22 @@ export default {}
 */
 
 </style>
+
+<script>
+  import BetaHeader from '~/components/BetaHeader.vue'
+
+  export default {
+  components: {
+    BetaHeader
+  },
+  head () {
+    return {
+      title: "Home - Codenativ",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
+  }
+}
+</script>

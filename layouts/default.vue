@@ -7,6 +7,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 
 
 
@@ -19,6 +20,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+#beta {
+  font-family: 'Work Sans', sans-serif;
 }
 
 #font {
